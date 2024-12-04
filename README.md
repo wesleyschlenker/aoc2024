@@ -57,3 +57,11 @@ errors tripped me up, but nothing a little copilot chatting couldn't help me fix
 I'm actually looking forward to golfing this a tiny bit and analyzing the time complexity later
 on. I think this problem is ripe with opportunities for me to improve my code problem-solving skills
 specifically, so I'll be checking in to the subreddit for day 3 discourse a lot today.
+
+## --- Day 4: Ceres Search ---
+
+Today was way easier than I thought it would be. I got both parts done in less than 45 minutes, and
+was even rank ~5000 for both parts. My solution seems pretty solid, and about as fast as can be. The
+only real optimization I can think of is to preprocess the boundaries of the grid for part 1, but
+the performance difference would be negligible. I feel lucky that I've seen this type of grid
+parsing problem a ton before (for whatever reason).
