@@ -65,3 +65,17 @@ was even rank ~5000 for both parts. My solution seems pretty solid, and about as
 only real optimization I can think of is to preprocess the boundaries of the grid for part 1, but
 the performance difference would be negligible. I feel lucky that I've seen this type of grid
 parsing problem a ton before (for whatever reason).
+
+## --- Day 5: Print Queue ---
+
+This was tricky! I think that if things are only going to get harder from here, I'm going to have to
+start consulting the internet for help.
+
+My first attempt was for naught, as I didn't read carefully. I thought that if I created an
+aggregated rule that summed all rules, then it would work. I still think that's a good idea, but my
+implementation somehow created an infinite loop.
+
+My second try was dead simple. I just found all rules where both numbers are contained in an update,
+run the rules, and swap the numbers that don't pass each rule, then start over until no rules don't
+pass. I'm not very happy with this solution, but I also don't really want to come back to it after
+failing so miserably the first time. On to day 6!
